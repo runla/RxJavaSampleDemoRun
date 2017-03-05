@@ -38,4 +38,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="RxBindding RxJava"/>
+
+    <Button
+    android:textAllCaps="false"
+    android:id="@+id/btn_5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="RxConnect RxJava"/>
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="flatMap RxJava"/>
 </LinearLayout>

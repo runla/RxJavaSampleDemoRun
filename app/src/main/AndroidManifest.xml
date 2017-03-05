@@ -18,7 +18,9 @@
         <activity android:name=".NormalRxActivity" />
         <activity android:name=".RxFilterActivity" />
         <activity android:name=".RxMapActivity" />
-        <activity android:name=".RxBindingActivity"></activity>
+        <activity android:name=".RxBindingActivity" />
+        <activity android:name=".RxConnetActivity" />
+        <activity android:name=".RxFlatMapActivity"></activity>
     </application>
 
 </manifest>

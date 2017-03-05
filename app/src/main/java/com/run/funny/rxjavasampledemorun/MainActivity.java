@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn2;
     private Button btn3;
     private Button btn4;
+    private Button btn5;
+    private Button btn6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn2 = (Button) findViewById(R.id.btn_2);
         btn3 = (Button) findViewById(R.id.btn_3);
         btn4 = (Button) findViewById(R.id.btn_4);
+        btn5 = (Button) findViewById(R.id.btn_5);
+        btn6 = (Button) findViewById(R.id.btn_6);
     }
 
     private void initEvent(){
@@ -32,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn2.setOnClickListener(this);
         btn3.setOnClickListener(this);
         btn4.setOnClickListener(this);
+        btn5.setOnClickListener(this);
+        btn6.setOnClickListener(this);
     }
 
     @Override
@@ -52,6 +58,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_4:
                 Intent intent4 = new Intent(MainActivity.this,RxBindingActivity.class);
                 startActivity(intent4);
+                break;
+            case R.id.btn_5:
+                Intent intent5 = new Intent(MainActivity.this,RxConnetActivity.class);
+                startActivity(intent5);
+                break;
+            case R.id.btn_6:
+                Intent intent6 = new Intent(MainActivity.this,RxFlatMapActivity.class);
+                startActivity(intent6);
                 break;
         }
     }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rx_flat_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.run.funny.rxjavasampledemorun.RxFlatMapActivity">
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_flatMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输出所有学生姓名年龄"/>
+</LinearLayout>
