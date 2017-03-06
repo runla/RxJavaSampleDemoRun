@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn4;
     private Button btn5;
     private Button btn6;
+    private Button btn7;
+    private Button btn8;
+    private Button btn9;
+    private Button btn10;
+    private Button btn11;
+    private Button btn12;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +35,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn4 = (Button) findViewById(R.id.btn_4);
         btn5 = (Button) findViewById(R.id.btn_5);
         btn6 = (Button) findViewById(R.id.btn_6);
+        btn7 = (Button) findViewById(R.id.btn_7);
+        btn8 = (Button) findViewById(R.id.btn_8);
+        btn9 = (Button) findViewById(R.id.btn_9);
+        btn10 = (Button) findViewById(R.id.btn_10);
+        btn11 = (Button) findViewById(R.id.btn_11);
+        btn12 = (Button) findViewById(R.id.btn_12);
     }
 
     private void initEvent(){
@@ -38,6 +50,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn4.setOnClickListener(this);
         btn5.setOnClickListener(this);
         btn6.setOnClickListener(this);
+        btn7.setOnClickListener(this);
+        btn8.setOnClickListener(this);
+        btn9.setOnClickListener(this);
+        btn10.setOnClickListener(this);
+        btn11.setOnClickListener(this);
+        btn12.setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +84,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_6:
                 Intent intent6 = new Intent(MainActivity.this,RxFlatMapActivity.class);
                 startActivity(intent6);
+                break;
+            case R.id.btn_7:
+                Intent intent7 = new Intent(MainActivity.this,RxMergeActivity.class);
+                startActivity(intent7);
+                break;
+            case R.id.btn_8:
+                Intent intent8 = new Intent(MainActivity.this,RxSchuderActivity.class);
+                startActivity(intent8);
+                break;
+            case R.id.btn_9:
+                Intent intent9 = new Intent(MainActivity.this,RxSortActivity.class);
+                startActivity(intent9);
+                break;
+            case R.id.btn_10:
+                Intent intent10 = new Intent(MainActivity.this,RxTakeActivity.class);
+                startActivity(intent10);
+                break;
+            case R.id.btn_11:
+                Intent intent11 = new Intent(MainActivity.this,RxTimerActivity.class);
+                startActivity(intent11);
+                break;
+            case R.id.btn_12:
+                Intent intent12 = new Intent(MainActivity.this,TimestampActivity.class);
+                startActivity(intent12);
                 break;
         }
     }

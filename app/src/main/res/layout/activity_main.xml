@@ -11,44 +11,94 @@
     android:orientation="vertical"
     tools:context="com.run.funny.rxjavasampledemorun.MainActivity">
 
-    <Button
-        android:id="@+id/btn_1"
-        android:textAllCaps="false"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="normal RxJava"/>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btn_1"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="normal RxJava"/>
 
-    <Button
-        android:id="@+id/btn_2"
-        android:textAllCaps="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="filter RxJava"/>
+            <Button
+                android:id="@+id/btn_2"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="filter RxJava"/>
 
-    <Button
-        android:textAllCaps="false"
-        android:id="@+id/btn_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="map RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="map RxJava"/>
 
-    <Button
-        android:textAllCaps="false"
-        android:id="@+id/btn_4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RxBindding RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxBindding RxJava"/>
 
-    <Button
-    android:textAllCaps="false"
-    android:id="@+id/btn_5"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="RxConnect RxJava"/>
-    <Button
-        android:textAllCaps="false"
-        android:id="@+id/btn_6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="flatMap RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxConnect RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="flatMap RxJava"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxMerge RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxSchuder RxJava"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="toSortedList RxJava"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="take RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="interval RxJava"/>
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btn_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="timestamp RxJava"/>
+        </LinearLayout>
+
+    </ScrollView>
+
 </LinearLayout>
